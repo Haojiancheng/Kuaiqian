@@ -1,0 +1,1 @@
+include ':app', ':common', ':component', ':module_authentication', ':module_home', ':module_mine', ':module_repayment'

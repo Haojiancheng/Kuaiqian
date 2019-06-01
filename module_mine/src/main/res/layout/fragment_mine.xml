@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MineFragment">
+
+    <RelativeLayout
+        android:id="@+id/relat1"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:background="@color/orange">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/mine_icon"
+            android:layout_width="56dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="76dp"
+            fresco:roundAsCircle="true" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="80dp"
+            android:layout_toRightOf="@id/mine_icon"
+            android:text="JUKER"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/user_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_name"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/mine_icon"
+            android:lines="1"
+            android:text="众人皆醒我独醉"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+
+        <ImageView
+            android:id="@+id/mine_user_more"
+            android:layout_width="8dp"
+            android:layout_height="13sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="103dp"
+            android:layout_marginRight="40dp"
+            android:src="@mipmap/gengduo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-36dp"
+        android:background="@drawable/shape_mine"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/mine_customer_service_telephone_numbers"
+            android:layout_width="336dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/kefudianhua" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="客服电话"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginRight="21dp"
+                android:src="@mipmap/gengduo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mine_Loan_record"
+            android:layout_width="336dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/jiekuanjilu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="借款记录"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginRight="21dp"
+                android:src="@mipmap/gengduo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mine_Common_problem"
+            android:layout_width="336dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/changjianwenti" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="常见问题"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginRight="21dp"
+                android:src="@mipmap/gengduo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mine_update_login_pwd"
+            android:layout_width="336dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/update_pwd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="修改登录密码"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginRight="21dp"
+                android:src="@mipmap/gengduo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="336dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/guangyuwomen" />
+
+            <TextView
+                android:id="@+id/mine_About_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="关于我们"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginRight="21dp"
+                android:src="@mipmap/gengduo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mine_feed_back"
+            android:layout_width="336dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/feedback" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:text="意见反馈"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_marginRight="21dp"
+                android:src="@mipmap/gengduo" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mine_logout"
+        android:layout_width="336dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_logout"
+        android:text="退出登录"
+        android:textColor="@color/orange"
+        android:textSize="16sp" />
+</LinearLayout>

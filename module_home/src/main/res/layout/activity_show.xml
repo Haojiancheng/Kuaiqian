@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:background="@color/fragment"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/home_radioGroup_change"></FrameLayout>
+
+        <RadioGroup
+            android:id="@+id/home_radioGroup_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton_home"
+                style="@style/bottom_tab"
+                android:checked="true"
+                android:drawableTop="@drawable/home_image_selector"
+                android:text="@string/home" />
+
+            <RadioButton
+                android:id="@+id/radioButton_authentication"
+                style="@style/bottom_tab"
+                android:checked="false"
+                android:drawableTop="@drawable/authentication_image_selector"
+                android:text="@string/authentication" />
+
+            <RadioButton
+                android:id="@+id/radioButton_repayment"
+                style="@style/bottom_tab"
+                android:drawableTop="@drawable/repayment_image_selector"
+                android:text="@string/repayment" />
+
+            <RadioButton
+                android:id="@+id/radioButton_mine"
+                style="@style/bottom_tab"
+                android:drawableTop="@drawable/mine_image_selector"
+                android:text="@string/mine" />
+        </RadioGroup>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

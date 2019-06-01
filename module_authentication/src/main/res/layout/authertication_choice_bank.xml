@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="36dp"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="绑定银行卡"
+            android:textColor="@color/colorLightBlank"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorDarkGray" />
+
+    <LinearLayout
+        android:id="@+id/gongshangBank"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="21dp"
+            android:src="@mipmap/gongshangyinhang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:text="工商银行"
+            android:textColor="@color/colorLightBlank"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="335dp"
+        android:layout_height="0.3px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorDarkGray" />
+
+    <LinearLayout
+        android:id="@+id/zhaoshangBank"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="21dp"
+            android:src="@mipmap/zhaoshangyinhang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:text="招商银行"
+            android:textColor="@color/colorLightBlank"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="335dp"
+        android:layout_height="0.3px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorDarkGray" />
+
+    <LinearLayout
+        android:id="@+id/jiansheBank"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="21dp"
+            android:src="@mipmap/jiansheyinhang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:text="建设银行"
+            android:textColor="@color/colorLightBlank"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="335dp"
+        android:layout_height="0.3px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorDarkGray" />
+
+    <LinearLayout
+        android:id="@+id/nongyeBank"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="21dp"
+            android:src="@mipmap/nongyeyinhang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:text="农业银行"
+            android:textColor="@color/colorLightBlank"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="335dp"
+        android:layout_height="0.3px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorDarkGray" />
+
+    <LinearLayout
+        android:id="@+id/zhongguoBank"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="21dp"
+            android:src="@mipmap/zhongguoyinhang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:text="中国银行"
+            android:textColor="@color/colorLightBlank"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="335dp"
+        android:layout_height="0.3px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorDarkGray" />
+
+    <LinearLayout
+        android:id="@+id/youzhengBank"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="21dp"
+            android:src="@mipmap/youzhengyinhang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:text="工商银行"
+            android:textColor="@color/colorLightBlank"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="335dp"
+        android:layout_height="0.3px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorDarkGray" />
+
+    <LinearLayout
+        android:id="@+id/guangdaBank"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="21dp"
+            android:src="@mipmap/guangdayinhang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:text="工商银行"
+            android:textColor="@color/colorLightBlank"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

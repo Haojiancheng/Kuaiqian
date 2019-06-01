@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorDarkGray">#333333</color>
+    <color name="colorGray">#999999</color>
+    <color name="colorLightBlank">#000000</color>
+    <color name="colorLightLightGray">#CCCCCC</color>
+    <color name="red">#ef0606</color>
+    <color name="white">#fff</color>
+    <color name="blue">#20affa</color>
+    <color name="orange">#ae7646</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#777777</color>
+    <color name="loading_dialog_background">#00000000</color>
+    <color name="loading_dialog_back_background">#64000000</color>
+    <color name="jingshitest">#ff1d1d</color>
+    <color name="jingshi">#fdeced</color>
+    <color name="task">#FFF4F0F1</color>
+    <color name="taskh">#FFF10842</color>
+    <color name="task_blue">#20affa</color>
+    <color name="task_white">#ffffff</color>
+    <color name="fragment">#f7f8fa</color>
+</resources>
